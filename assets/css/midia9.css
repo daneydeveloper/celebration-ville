@@ -1,0 +1,409 @@
+/*COR PADRAO {
+    AMARELA: #3374bd;
+}*/
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+::selection {
+    background: #3374bd;
+    text-shadow: none;
+    color: white;
+}
+.page-area {
+    background: url(../img/background/bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.breadcrumb {
+    padding: 40px 0px;
+}
+/*==========================================================================
+================================= HEADER ===================================
+==========================================================================*/
+.mean-container .mean-nav ul li a {
+    background: #ffffff none repeat scroll 0 0;
+}
+.mean-container .mean-nav ul li {
+    background: #ffffff none repeat scroll 0 0;
+    border-top: 1px solid#ddd;
+}
+.mean-container .mean-nav {
+    background: #ffffff!important;
+}
+.mobile-menu-area {
+    background: #ffffff none repeat scroll 0 0;
+    padding: 10px 0px;
+    border-bottom: 1px solid;
+}
+.header-middle-area .header-icon {
+    border: 1px solid #3374bd;
+    background: #3374bd;
+}
+.header-icon i {
+    color: #ffffff;
+}
+.header-area {
+    background: #173788;
+    border-top: 1px solid #3374bd;
+    box-shadow: 0px 0px 0px #ccc, 0px 1px 5px #ccc;
+}
+.main-menu ul.navbar-nav li a{
+    color: #fff;
+}
+.main-menu ul.navbar-nav li a:hover {
+    color: #f7c10a;
+}
+.ativo{
+    color: #f7c10a!important;
+}
+.header-middle-area .header-info {
+    padding: 65px 0px;
+}
+.header-middle-area .logo a{
+     padding: 0px 0;   
+}
+.header-middle-area .header-info {
+    padding: 37px 0px;
+}
+.header-area.stick{
+    background: #173788;
+}
+
+/*==========================================================================
+================================== HOME ====================================
+==========================================================================*/
+.about-content h1{
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-size: 28px;
+}
+.about-content h2{
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.testimonial-text p {
+    text-align: justify;
+}
+#fa {
+    font-size: 80px;
+}
+.team-content{
+    margin-top: 10px;
+}
+.sub_title{
+    font-size: 18px;
+    text-align: center;
+}
+.descricao_sub_title{
+    font-size: 14px;
+    text-align: center;
+}
+.single-member {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius:  10px;
+    text-align: center;
+}
+.sub-headline::after {
+    background: #3374bd;
+}
+.area-padding {
+    padding: 40px 0px;
+}
+
+.services-area{
+    /* background-image: url('../img/background/bg5.jpg')!important; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+
+.services-area::after {
+    background: rgb(247, 247, 247) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.single-services {
+    background-color: white;
+}
+
+.about-area {
+    background: #ffffff;
+}
+
+.section-headline h3 {
+    color: #444444;
+}
+
+.section-headline p {
+    color: #067dfb;
+}
+
+.section-headline::after {
+    border: 1px solid #067dfb;
+}
+
+.border-img {
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 2px #0000004f;
+}
+
+.single-services {
+    border: 2px solid #fbac02;
+    text-align: center;
+}
+/*==========================================================================
+================================= CONTATO ==================================
+==========================================================================*/
+.contact-page .contact-btn {
+    border-radius: 0px;
+}
+.color {
+    color: #3374bd;
+    font-weight: 600;
+}
+.contact-head h3{
+    font-weight: 500;
+}
+.fundo_trabalhe_conosco{
+    background: rgba(0, 0, 0, 0) url(../img/background/corretor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+
+}
+.fundo_trabalhe_conosco::after {
+    background: rgba(0, 0, 0, 0.70) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.contact-head {
+    background: #ffffff;
+    padding: 50px 30px;
+    border: 1px solid #444445;
+}
+@media (max-width: 767px){
+    .contact-head{
+        padding: 25px 15px;
+    }
+    .contact-head h3 {
+        font-weight: 500;
+        text-align: center;
+        font-size: 20px;
+    }
+    .contact-page .contact-btn {
+        width: 100%;
+    }
+}
+.form-control{
+    border-radius: 0px;
+}
+
+.contact-form input[type="text"], .contact-form input[type="email"] {
+    padding-left: 13px;
+}
+.contact-page .contact-btn {
+    border: 1px solid #ffffff;
+    background: #3374bd;
+}
+.contact-page .contact-btn:hover {
+    border: 1px solid #ffffff;
+}
+.seja_corretor {
+    padding: 160px 0px;
+}
+#margin-top-form{
+    margin-top: 0px;
+}
+@media (max-width: 767px){
+    #margin-top-form{
+        margin-top: 10px;
+    }
+}
+/*==========================================================================
+================================= GALERIA ==================================
+==========================================================================*/
+.awesome-img > a::before {
+    top: 80%;
+}
+.single-awesome-project {
+    border: 1px dashed #3374BD;
+}
+.awesome-img > a::after {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+/*==========================================================================
+================================= INSTITUCIONAL ============================
+==========================================================================*/
+.faq-details a.active span.acc-icons::before {
+    color: #3374bd;
+}
+.faq-details .panel-heading h4 a.active {
+    color: #3374bd;
+}
+.video-play.vid-zone i {
+    color: #3374bd;
+    margin-left: 5px;
+}
+.panel-body {
+    padding: 15px 15px 0px 15px;
+}
+.video-inner {
+    background: url(../img/background/video.png);
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 2px #0000004f;
+}
+.video-inner::after {
+    border-radius: 10px;
+}
+.call_to_action {
+    background: rgba(0, 0, 0, 0) url(../img/background/bg4.jpg) no-repeat scroll center center / cover;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+.responsabilidade_social{
+    color: #ffffff;
+    text-align: justify;
+}
+.map-area{
+    border-top: 1px solid #3374bd;
+}
+.color-title{
+    color: black;
+}
+.section-contato {
+    margin-bottom: 60px;
+    position: relative;
+}
+.section-contato h1 {
+    color: #000000;
+    display: inline-block;
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.section-galeria h1 {
+    color: #000000b8;
+    display: inline-block;
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.hr_contato{
+    width: 15%;
+    border-top: 2px solid #3374bd;
+}
+/*==========================================================================
+================================= FOOTER ===================================
+==========================================================================*/
+.footer-list li a:hover {
+    color: #3374bd;
+}
+.suscribe-input button:hover {
+    background: #3374bd;
+    border: 1px solid #3374bd;
+}
+.footer-contacts p span {
+    color: #3374bd;
+}
+.copyright a {
+    color: orange;
+}
+.footer-area {
+    background: #ffffff;
+    border-top: 2px solid #3374bd;
+}
+
+.footer-head h4 {
+    color: #353535;
+}
+
+.footer-area-bottom {
+    background: #FFFFFF none repeat scroll 0 0;
+    padding: 25px 0;
+}
+
+.footer-icons ul li a:hover {
+    border: 1px solid #727272;
+    background: #3374bd;
+}
+.color_celebration_ville{
+    color: #3374bd;
+}
+#pull-left{
+    text-align: left;
+}
+
+#pull-right{
+    text-align: right;
+}
+#scrollUp {
+    background: #067dfb none repeat scroll 0 0;
+    opacity: 1;
+}
+#footerimg{
+    background-image: url(https://res.cloudinary.com/midia9-group/image/upload/v1537989671/g6519_fnp6eq.png)!important;
+    height: 200px;
+}
+@media only screen and (max-width: 768px){
+    #pull-left{
+        text-align: center;
+    }
+    #pull-right{
+        text-align: center;
+    }
+}
+/*blog*/
+.blog-meta {
+    width: 180px;
+}
+.left-blog {
+    padding-bottom: 0px;
+}
+@media screen and (max-height: 767px){
+    .area-padding {
+        padding: 35px 0px!important;
+    }
+    #footerimg {
+        background-image: url(https://res.cloudinary.com/midia9-group/image/upload/v1537989671/g6519_fnp6eq.png)!important;
+        height: 200px;
+        background-size: contain;
+        background-position-x: unset;
+        background-position-y: bottom;
+        background-repeat-y: no-repeat;
+    }
+}
+@media screen and (max-height: 425px){
+    .area-padding {
+        padding: 10px 0px!important;
+    }
+    #footerimg {
+    background-image: url(https://res.cloudinary.com/midia9-group/image/upload/v1537989671/g6519_fnp6eq.png)!important;
+        height: 200px;
+        background-size: contain;
+        background-position-x: unset;
+        background-position-y: bottom;
+        background-repeat-y: no-repeat;
+    }
+}
